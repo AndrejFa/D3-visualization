@@ -1,0 +1,55 @@
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 15px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+#treecanvas{
+	position: relative;
+}
+.tooltip {
+	position: relative;
+	text-align: center;
+	width: 200px;
+	height: 110px;
+	font: 14px sans-serif;
+	background: lightsteelblue;
+	border: solid 1px #aaa;
+	border-radius: 8px;
+	pointer-events: none;
+}
+#radiobuttons {
+	/*float: left;*/
+	text-align: center;
+}
+#button_a {
+	margin-top: 0;
+	display: inline;
+}
+#button_b {
+	margin-top: 0;
+	display: inline;
+}
+.button {
+	padding: 10 10 10 10;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#slider {
+	padding-top: 10px;
+	position: relative;
+	text-align: center;
+}
+label {
+	padding-right: 2%;
+	margin-left: -2em;
+}

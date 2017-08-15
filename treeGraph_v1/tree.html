@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap-slider/dist/css/bootstrap-slider.css">
+	<link rel="stylesheet" type="text/css" href="CSS/tree.css">
+	<script type="text/javascript" src="JS/D3/d3.min.js"></script>
+	<script type="text/javascript" src="JS/jQuery/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="node_modules/bootstrap-slider/dist/bootstrap-slider.js"></script>
+	<script type="text/javascript" src="JS/tree.js"></script>
+</head>
+<body>
+<div id="treecontainer">
+	<div id="treecanvas"></div>
+	<div id="radiobuttons">
+		<div id="button_a">Insulins and analogues<input class="button" type="radio" name="diabetes" value="A10A" checked="checked"></div>
+		<div id="button_b">Glucose lowering drugs, excl. insulins<input class="button" type="radio" name="diabetes" value="A10B"></div>
+	</div>
+	<div id="slider">
+		<label>Select time interval in days:</label>
+		<input id="interval" type="text" data-slider-ticks="[30, 60, 90, 120]" data-slider-ticks-labels='["30", "60", "90", "120"]'/>
+	</div>
+</div>
+</body>
+</html>
