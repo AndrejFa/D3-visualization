@@ -2,7 +2,7 @@
 
 Line chart present a fraction of diabetes patients in age group for every drug group that was prescribed with drugs for diabetes. Patients are separated by gender and confidence interval was calculated for each data point and presented as opacity area around the lines. Sample was splitted in yearly time interval. 
 
-![LineGraph]("https://github.com/AndrejFa/D3-visualization/blob/master/lineGraph/img/lineGraph.png")
+![LineGraph](https://github.com/AndrejFa/D3-visualization/blob/master/lineGraph/img/lineGraph.png)
 
 ## Checkboxes
 
@@ -19,7 +19,7 @@ Dropdown menus allow user to select desired drug groups or year. Drugs group are
 
 ## Tooltip
 
-![LineGraphTooltip]("https://github.com/AndrejFa/D3-visualization/blob/master/lineGraph/img/lineGraph_tooltip.png")
+![LineGraphTooltip](https://github.com/AndrejFa/D3-visualization/blob/master/lineGraph/img/lineGraph_tooltip.png)
 
 Tooltip shows on hower over data point and has some summary information:
 - number of patients by gender in age group
