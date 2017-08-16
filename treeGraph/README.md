@@ -1,6 +1,6 @@
 # Introduction
 
-Tree graph presents top 10 drug pairs that were prescribed together. Due to long computational time we limit time interval to 120 days. Later time interval present drug prescription time for diabetes patients. 
+Tree graph presents top 10 drug pairs that were prescribed together. Due to long computational time we limit time interval to 120 days. Later time interval present drug prescription time for diabetes patients. Pairs a-b and b-a are equal, first that occur is considered.
 
 ![treeGraph](https://github.com/AndrejFa/D3-visualization/blob/master/img/tree.png)
 
