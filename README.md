@@ -14,5 +14,7 @@ python3 -m http.server
 ```
 Select desired graph folder and open an **.html** file.
 
-## Acnowledgement
--Matjaž Grosek for tips and help with implementation.
+## Acnowledgements
+- Izr. prof. dr. Gregor Štiglic
+- Doc. dr. Petra Povalej Bržan
+- Matjaž Grosek for tips and help with implementation.
